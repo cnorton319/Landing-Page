@@ -1,11 +1,46 @@
 body{
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 .header,
 .section1,
 .footer{
     background-color: #1F2937;
     color: #F9FAF8
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+h2{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.section1{
+    font-size: 18px;
 }
 
 .section3{
